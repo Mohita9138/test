@@ -5,7 +5,7 @@ def update():
     if "Already up to date" in use.decode():
         print("[+] it is updated")
     else:
-        print("[+] updating....")
+        print("[+] updating...")
         print(use)
 print("pass1")
 update()
