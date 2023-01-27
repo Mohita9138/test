@@ -1,6 +1,7 @@
 import subprocess
 def update():
     process = subprocess.Popen("git checkout . && git pull ",shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
-    print(process)
+    (use,nouse)=process.communicate()
+    print(use)
 print("pass")
 update()
