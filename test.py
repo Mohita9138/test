@@ -1,1 +1,1 @@
-print("passed2")
+print("passed1")
