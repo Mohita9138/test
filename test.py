@@ -6,6 +6,6 @@ def update():
         print("[+] it is updated")
     else:
         print("[+] updating...")
-        print(use)
+        print(use.decode())
 print("pass1")
 update()
